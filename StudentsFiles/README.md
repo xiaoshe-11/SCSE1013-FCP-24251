@@ -1,7 +1,7 @@
 ## Students Own Folders
 
-Each Person Please Create Your Own Folder Here
-All Lab Exercise Are Required To Done Here
+Each Person Please Create Your Own Folder \
+Here All Lab Exercise Are Required To Done Here
 
 Here Are The Steps To Create Your Own Folder:
 1. Click The Add File Button, Create New File
