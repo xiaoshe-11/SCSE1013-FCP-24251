@@ -1,3 +1,6 @@
+
+
+
 flowchart TD
     Start([Start]) --> InputLoan["Input Loan Amount (P), Annual Interest Rate (r), Loan Period (n), Monthly Income"]
     
@@ -19,3 +22,5 @@ flowchart TD
     
     SuccessMsg --> End([End])
     FailMsg --> End([End])
+
+
