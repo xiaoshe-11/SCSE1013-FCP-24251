@@ -7,9 +7,8 @@ flowchart TD
 
     CalcMonthlyPayment --> AffordableCheck{Is M <= 30% of Monthly Income?}
 
-    AffordableCheck -- Yes --> MonthlyLoop["For each month in loan period:"]
-    MonthlyLoop --> DeductPayment["Deduct Monthly Payment from Balance"]
-    DeductPayment --> BalanceCheck{Remaining Loan Balance > 0?}
+    AffordableCheck -- Yes --> MonthlyLoop["For each month in loan period: MonthlyPayment(M)"]
+    MonthlyLoop --> BalanceCheck{Remaining Loan Balance > 0?}
 
     BalanceCheck -- Yes --> MonthlyLoop
     BalanceCheck -- No --> Success[/Loan Fully Repaid Successfully/]
