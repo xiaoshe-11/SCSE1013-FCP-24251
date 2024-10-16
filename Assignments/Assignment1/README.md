@@ -1,5 +1,5 @@
 
-
+```mermaid
 
 flowchart TD
     Start([Start]) --> InputLoan["Input Loan Amount (P), Annual Interest Rate (r), Loan Period (n), Monthly Income"]
