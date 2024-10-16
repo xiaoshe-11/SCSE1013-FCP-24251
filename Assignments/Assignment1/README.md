@@ -3,7 +3,7 @@
 flowchart TD
     Start([Start]) --> InputDetails[/Enter Loan Amount, Interest Rate, Loan Period, Monthly Income/]
 
-    InputDetails --> CalcMonthlyPayment["Calculate Monthly Payment" /n "M = (P × r/12) / (1 - (1 + r/12)^(-12n))"]
+    InputDetails --> CalcMonthlyPayment["Calculate Monthly Payment \ M = (P × r/12) / (1 - (1 + r/12)^(-12n))"]
 
     CalcMonthlyPayment --> AffordableCheck{Is M <= 30% of Monthly Income?}
 
