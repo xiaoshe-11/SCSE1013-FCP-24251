@@ -1,6 +1,5 @@
 
 ```mermaid
-
 flowchart TD
     Start([Start]) --> InputDetails[/Input Loan Amount (P), Annual Interest Rate (r), Loan Period (n), Monthly Income/]
 
