@@ -2,7 +2,7 @@
 
 ## Students Own Folders
 
-Each Person Please Create Your Own Folder 
+Each Person Please Create Your Own Folder Inside This Folder / Directory
 Here All Lab Exercise Are Required To Done Here
 
 Here Are The Steps To Create Your Own Folder:
